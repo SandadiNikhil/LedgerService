@@ -11,6 +11,8 @@ Current Capabilities
 • Deterministic database lifecycle management via Makefile
 • Idempotent schema evolution suitable for CI/CD pipelines
 • Clear separation between schema definition and application logic
+• Type-safe PostgreSQL queries generated via sqlc
+• Compile-time validation between SQL schema and Go models
 
 
 Database & Infrastructure Design
