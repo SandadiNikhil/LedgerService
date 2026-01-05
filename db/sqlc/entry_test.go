@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-func createRandomEntry(t *testing.T, fromAccount, toAccount Account) Entry {
+func createRandomEntry(t *testing.T, fromAccount, _ Account) Entry {
 	arg := CreateEntryParams{
 		AccountID: fromAccount.ID,
 		Amount:    util.RandomMoney(),
